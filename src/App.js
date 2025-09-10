@@ -1,7 +1,8 @@
 import Header from './components/Header';
 import Medications from './components/Medications';
 
-function App() {
+function App({user}) {
+  console.log('user: ', user)
 
   return (
       <div className='App'>

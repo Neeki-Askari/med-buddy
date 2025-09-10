@@ -38,12 +38,12 @@ const style = {
 function NewMedModal({open, setOpen, createData, getAllMeds, tableInfo, setTableInfo}) {
     const [response, setResponse] = useState({
         med_name: '',
-        amount_value: '',
-        amount_unit: '',
+        amount_value: null,
+        amount_unit: null,
         frequency_value: null,
-        frequency_unit: '',
-        time_of_day: '',
-        prescriber: '', 
+        frequency_unit: null,
+        time_of_day: null,
+        prescriber: null, 
     });
     
 const handleChange = (e) => {

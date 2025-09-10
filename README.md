@@ -7,6 +7,9 @@ Med-Buddy is a React-based web application designed to help users manage their m
 - Medication Management: Add, update, and remove medications as your prescription changes.
 - Prescription Details: Keep track of dosage, doctor information, and more.
 
+![Medication Table](./public/table.png)
+![Modal](./public/modal.png)
+
 ## Dependencies
 
 - React ^18.2.0

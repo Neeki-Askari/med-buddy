@@ -230,7 +230,7 @@ function MedicationList({ rows, getAllMeds}) {
                           {row.name}
                         </TableCell>
                         <TableCell align="right" sx={{ color: 'white' }}>
-                          {`${row.amountVal} ${row.amountUnit}`}
+                          {row.amountVal === null ? '' : `${row.amountVal} ${row.amountUnit}`}
                         </TableCell>
                         <TableCell align="right" sx={{ color: 'white' }}>
                           {row.freqUnit === 'as needed'
